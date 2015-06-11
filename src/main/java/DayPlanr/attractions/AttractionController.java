@@ -12,6 +12,7 @@ public class AttractionController {
     @RequestMapping("/helsinki")
     @ResponseBody
     String attractions() {
+        //TODO: Rakenna POJO-malli, jonka voi testivaiheessa populoida jacksonilla http://wiki.fasterxml.com/JacksonInFiveMinutes#Full_Data_Binding_.28POJO.29_Example
         return "Hello World!";
     }
 
