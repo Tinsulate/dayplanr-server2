@@ -13,6 +13,7 @@ public class DayplanrServerApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }

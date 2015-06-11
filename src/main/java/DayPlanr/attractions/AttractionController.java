@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @EnableAutoConfiguration
 public class AttractionController {
 
-    @RequestMapping("/")
+    @RequestMapping("/helsinki")
     @ResponseBody
-    String home() {
+    String attractions() {
         return "Hello World!";
     }
 
